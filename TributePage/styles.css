@@ -55,6 +55,11 @@ html {
         margin: 15px 0 5px 0;
       }
 
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
       a:hover {
         text-decoration: underline;
       }

@@ -31,11 +31,10 @@ html {
     box-sizing: border-box;
     }
     #title {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
     }
-        
-
-
+    
     img {
         max-width: 100%;
         display: block;
@@ -43,12 +42,6 @@ html {
         margin: 0 auto;
       }
 
-      img {
-        max-width: 100%;
-        display: block;
-        height: auto;
-        margin: 0 auto;
-      }
       
       #img-div {
         background: white;
@@ -57,7 +50,7 @@ html {
       }
       
       #img-caption {
-        color: black;
+        color: rgb(0, 0, 0);
         font-size: 0.8em;
         margin: 15px 0 5px 0;
       }

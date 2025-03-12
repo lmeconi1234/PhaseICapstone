@@ -51,7 +51,7 @@ input, textarea, select {
 *
 
 
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -63,11 +63,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(203, 202, 204);
 }
 
 header {
-    background-color: black
+    background-color: #333;
     color: white;
     padding: 10px 0;
 }
@@ -92,13 +91,6 @@ section {
     margin: 10px;
 }
 
-header {
-    background-color: white
-    color: white;
-    padding: 10px 0;
-    font-weight: bold; /* Make header text bold */
-}
-
 #about {
     display: flex;
     align-items: center;
@@ -109,8 +101,6 @@ header {
     width: 150px; /* Adjust as needed */
     height: 150px; /* Adjust as needed */
     margin-right: 20px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 #skills ul {

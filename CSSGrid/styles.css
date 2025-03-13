@@ -94,7 +94,8 @@ section {
 #about {
     display: flex;
     align-items: left;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin-top: 20px; /* Add space between header and content */
 }
 
 .profile-pic {
@@ -102,13 +103,12 @@ section {
     width: 150px; /* Adjust as needed */
     height: 150px; /* Adjust as needed */
     margin-right: 20px;
-    padding-inline-start: 20px;
-    margin: 20px;
 }
 
 #skills ul {
     list-style-type: disc;
     padding-left: 20px;
+    
 }
 
 .project-list {

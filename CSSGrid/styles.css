@@ -106,7 +106,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px; /* Add space between navigation and profile pic */
+    margin-top: 20px; 
 }
 
 #skills ul {

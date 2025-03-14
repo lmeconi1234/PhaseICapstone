@@ -125,6 +125,18 @@ section {
     width: calc(30% - 20px); /* Adjust width as needed */
 }
 
+@media (max-width: 768px) {
+    .project {
+        width: calc(45% - 20px); /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: calc(100% - 20px); /* Adjust width for very small screens */
+    }
+}
+
 .project img {
     width: 100%; /* Make images responsive */
     border-radius: 5px;
